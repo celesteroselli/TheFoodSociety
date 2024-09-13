@@ -14,6 +14,8 @@
 		5B65736B2C7D3873008045E3 /* TheFoodSocietyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B65736A2C7D3873008045E3 /* TheFoodSocietyTests.swift */; };
 		5B6573752C7D3873008045E3 /* TheFoodSocietyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6573742C7D3873008045E3 /* TheFoodSocietyUITests.swift */; };
 		5B6573772C7D3873008045E3 /* TheFoodSocietyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6573762C7D3873008045E3 /* TheFoodSocietyUITestsLaunchTests.swift */; };
+		5B6F0FBE2C93CA81007AE84C /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6F0FBD2C93CA81007AE84C /* Dashboard.swift */; };
+		5B6F0FC02C93CA94007AE84C /* CourseOneGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6F0FBF2C93CA94007AE84C /* CourseOneGeneral.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		5B6573702C7D3873008045E3 /* TheFoodSocietyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheFoodSocietyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6573742C7D3873008045E3 /* TheFoodSocietyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheFoodSocietyUITests.swift; sourceTree = "<group>"; };
 		5B6573762C7D3873008045E3 /* TheFoodSocietyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheFoodSocietyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5B6F0FBD2C93CA81007AE84C /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		5B6F0FBF2C93CA94007AE84C /* CourseOneGeneral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseOneGeneral.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				5B6573592C7D3873008045E3 /* TheFoodSocietyApp.swift */,
 				5B65735B2C7D3873008045E3 /* ContentView.swift */,
+				5B6F0FBD2C93CA81007AE84C /* Dashboard.swift */,
+				5B6F0FBF2C93CA94007AE84C /* CourseOneGeneral.swift */,
 				5B65735D2C7D3873008045E3 /* Assets.xcassets */,
 				5B65735F2C7D3873008045E3 /* Preview Content */,
 			);
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B65735C2C7D3873008045E3 /* ContentView.swift in Sources */,
+				5B6F0FBE2C93CA81007AE84C /* Dashboard.swift in Sources */,
+				5B6F0FC02C93CA94007AE84C /* CourseOneGeneral.swift in Sources */,
 				5B65735A2C7D3873008045E3 /* TheFoodSocietyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
