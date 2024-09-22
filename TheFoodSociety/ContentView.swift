@@ -14,10 +14,6 @@ struct ContentView: View {
         VStack {
             Dashboard()
                 Spacer()
-                HStack {
-                    Text(Image(systemName: "house"))
-                    Image(systemName: "gear")
-                }
             }
         }
 }

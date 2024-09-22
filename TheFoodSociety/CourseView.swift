@@ -8,21 +8,20 @@
 import SwiftUI
 
 struct CourseView: View {
-    var courseNumber: Int
-    var numModules: Int
-    @State var currentCourse: Int
+    @ObservedObject var course: WrappedStruct<CourseSettings>
     
     var body: some View {
         VStack {
                 VStack{
-                    
                     Spacer()
                     
                         HStack {
                             VStack(spacing:40) {
-                                ForEach(1..<(numModules+1), id: \.self) {i in
+                                ForEach(1..<(course.item.numModules+1), id: \.self) {i in
                                     Button("Module \(i)") {
-                                        currentCourse = i
+                                        course.item.currentModule = i
+                                        print(course.item.currentModule)
+                                        
                                     }
                                 }
                                 Spacer()
@@ -30,16 +29,12 @@ struct CourseView: View {
                                 .ignoresSafeArea()
                                 .background(Color.color)
                             Spacer()
-                            CourseManager(num:courseNumber, module:currentCourse)
+                            CourseManager(num:course.item.number, module:course.item.currentModule)
                             Spacer()
                         }
                     
                     
                 }
-        }.navigationTitle("Course \(courseNumber)")
+        }.navigationTitle(course.item.name)
     }
-}
-
-#Preview {
-    CourseView(courseNumber: 1, numModules:3, currentCourse: 1)
 }

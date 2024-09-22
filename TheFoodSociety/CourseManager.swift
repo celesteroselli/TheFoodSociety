@@ -14,6 +14,24 @@ struct CourseManager: View {
     var body: some View {
         
         switch num {
+        case 3:
+            switch module {
+            case 2:
+                Course3Module2()
+            case 3:
+                Course3Module3()
+            default:
+                Course3Module1()
+            }
+        case 2:
+            switch module {
+            case 2:
+                Course2Module2()
+            case 3:
+                Course2Module3()
+            default:
+                Course2Module1()
+            }
         default:
             switch module {
             case 2:
@@ -23,6 +41,19 @@ struct CourseManager: View {
             default:
                 Course1Module1()
             }
+        }
+        
+    }
+}
+
+struct ArticleManager: View {
+    var num: Int
+    
+    var body: some View {
+        
+        switch num {
+        default:
+            Article1()
         }
         
     }

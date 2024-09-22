@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B1EAE222CA07B3000BE0A02 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1EAE212CA07B3000BE0A02 /* UserSettings.swift */; };
+		5B1EAE242CA087AC00BE0A02 /* Course1Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1EAE232CA087AB00BE0A02 /* Course1Content.swift */; };
+		5B1EAE262CA087C500BE0A02 /* Course2Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1EAE252CA087C500BE0A02 /* Course2Content.swift */; };
+		5B1EAE282CA087E800BE0A02 /* Course3Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1EAE272CA087E800BE0A02 /* Course3Content.swift */; };
 		5B33CDEC2C990F6F00E860F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B65735B2C7D3873008045E3 /* ContentView.swift */; };
+		5B33CDEE2C9DC47400E860F2 /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B33CDED2C9DC47400E860F2 /* ArticleView.swift */; };
+		5B33CDF02C9DC50400E860F2 /* ArticleContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B33CDEF2C9DC50400E860F2 /* ArticleContent.swift */; };
 		5B65735A2C7D3873008045E3 /* TheFoodSocietyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6573592C7D3873008045E3 /* TheFoodSocietyApp.swift */; };
 		5B65735C2C7D3873008045E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B65735B2C7D3873008045E3 /* ContentView.swift */; };
 		5B65735E2C7D3873008045E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B65735D2C7D3873008045E3 /* Assets.xcassets */; };
@@ -18,7 +24,6 @@
 		5B6F0FBE2C93CA81007AE84C /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6F0FBD2C93CA81007AE84C /* Dashboard.swift */; };
 		5B6F0FC02C93CA94007AE84C /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6F0FBF2C93CA94007AE84C /* CourseView.swift */; };
 		5B6F0FC22C971B48007AE84C /* CourseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6F0FC12C971B48007AE84C /* CourseManager.swift */; };
-		5B6F0FC52C9725CE007AE84C /* Course1Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6F0FC42C9725CE007AE84C /* Course1Content.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B1EAE212CA07B3000BE0A02 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		5B1EAE232CA087AB00BE0A02 /* Course1Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Course1Content.swift; path = ../../../../../.Trash/Course1Content.swift; sourceTree = "<group>"; };
+		5B1EAE252CA087C500BE0A02 /* Course2Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course2Content.swift; sourceTree = "<group>"; };
+		5B1EAE272CA087E800BE0A02 /* Course3Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course3Content.swift; sourceTree = "<group>"; };
+		5B33CDED2C9DC47400E860F2 /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
+		5B33CDEF2C9DC50400E860F2 /* ArticleContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleContent.swift; sourceTree = "<group>"; };
 		5B6573562C7D3873008045E3 /* TheFoodSociety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheFoodSociety.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6573592C7D3873008045E3 /* TheFoodSocietyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheFoodSocietyApp.swift; sourceTree = "<group>"; };
 		5B65735B2C7D3873008045E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,7 +63,6 @@
 		5B6F0FBD2C93CA81007AE84C /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
 		5B6F0FBF2C93CA94007AE84C /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
 		5B6F0FC12C971B48007AE84C /* CourseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseManager.swift; sourceTree = "<group>"; };
-		5B6F0FC42C9725CE007AE84C /* Course1Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course1Content.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +118,7 @@
 				5B65735B2C7D3873008045E3 /* ContentView.swift */,
 				5B6F0FBD2C93CA81007AE84C /* Dashboard.swift */,
 				5B6F0FBF2C93CA94007AE84C /* CourseView.swift */,
+				5B33CDED2C9DC47400E860F2 /* ArticleView.swift */,
 				5B6F0FC12C971B48007AE84C /* CourseManager.swift */,
 				5B65735D2C7D3873008045E3 /* Assets.xcassets */,
 				5B65735F2C7D3873008045E3 /* Preview Content */,
@@ -143,7 +154,11 @@
 		5B6F0FC32C97255F007AE84C /* CourseContent */ = {
 			isa = PBXGroup;
 			children = (
-				5B6F0FC42C9725CE007AE84C /* Course1Content.swift */,
+				5B1EAE232CA087AB00BE0A02 /* Course1Content.swift */,
+				5B1EAE252CA087C500BE0A02 /* Course2Content.swift */,
+				5B1EAE272CA087E800BE0A02 /* Course3Content.swift */,
+				5B33CDEF2C9DC50400E860F2 /* ArticleContent.swift */,
+				5B1EAE212CA07B3000BE0A02 /* UserSettings.swift */,
 			);
 			path = CourseContent;
 			sourceTree = "<group>";
@@ -280,10 +295,15 @@
 			files = (
 				5B65735C2C7D3873008045E3 /* ContentView.swift in Sources */,
 				5B6F0FBE2C93CA81007AE84C /* Dashboard.swift in Sources */,
-				5B6F0FC52C9725CE007AE84C /* Course1Content.swift in Sources */,
 				5B6F0FC02C93CA94007AE84C /* CourseView.swift in Sources */,
+				5B1EAE282CA087E800BE0A02 /* Course3Content.swift in Sources */,
+				5B1EAE222CA07B3000BE0A02 /* UserSettings.swift in Sources */,
 				5B65735A2C7D3873008045E3 /* TheFoodSocietyApp.swift in Sources */,
+				5B33CDEE2C9DC47400E860F2 /* ArticleView.swift in Sources */,
+				5B33CDF02C9DC50400E860F2 /* ArticleContent.swift in Sources */,
 				5B6F0FC22C971B48007AE84C /* CourseManager.swift in Sources */,
+				5B1EAE242CA087AC00BE0A02 /* Course1Content.swift in Sources */,
+				5B1EAE262CA087C500BE0A02 /* Course2Content.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
